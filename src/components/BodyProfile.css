@@ -1,0 +1,112 @@
+.body-profile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 190;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.body-profile-inner {
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--surface);
+  border-radius: 16px 16px 0 0;
+  padding: 20px 20px 28px;
+}
+.body-profile-inner h2 {
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+}
+.body-profile-desc {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+.form-row {
+  margin-bottom: 14px;
+}
+.form-row label {
+  display: block;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+.seg {
+  display: flex;
+  gap: 8px;
+}
+.seg button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  cursor: pointer;
+}
+.seg button.on {
+  border-color: var(--accent);
+  background: rgba(45, 125, 70, 0.1);
+  color: var(--accent);
+  font-weight: 500;
+}
+.body-profile-inner .form-group {
+  margin-bottom: 14px;
+}
+.body-profile-inner .form-group label {
+  display: block;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+.body-profile-inner input[type='number'],
+.body-profile-inner select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.9375rem;
+}
+.metabolism-summary {
+  background: var(--bg);
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+.metabolism-summary strong {
+  color: var(--accent);
+}
+.toggle-manual label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.9375rem;
+  color: var(--text);
+}
+.body-profile-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.body-profile-actions button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  border: none;
+}
+.body-profile-actions .btn-outline {
+  background: var(--bg);
+  color: var(--text-muted);
+}
+.body-profile-actions .btn-primary {
+  background: var(--accent);
+  color: white;
+}

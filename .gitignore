@@ -1,0 +1,6 @@
+node_modules
+dist
+docker-data
+android
+.DS_Store
+*.log

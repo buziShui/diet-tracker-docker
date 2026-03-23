@@ -1,0 +1,11 @@
+services:
+  diet-tracker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: diet-tracker
+    ports:
+      - "7778:80"
+    volumes:
+      - ./docker-data:/data
+    restart: unless-stopped

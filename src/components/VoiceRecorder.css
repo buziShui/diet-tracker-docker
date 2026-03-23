@@ -1,0 +1,18 @@
+.preview-list {
+  margin-top: 12px;
+  padding: 12px;
+  background: #f0f7f2;
+  border-radius: 8px;
+  border: 1px solid rgba(45, 125, 70, 0.2);
+}
+.preview-label {
+  font-size: 0.75rem;
+  color: var(--accent);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 8px;
+}
+.preview-item {
+  font-size: 0.875rem;
+  padding: 4px 0;
+}
